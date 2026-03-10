@@ -75,3 +75,7 @@ def principal():
 
 if __name__ == '__main__':
     principal()
+
+x='hola'
+x.capitalize
+print(x)
