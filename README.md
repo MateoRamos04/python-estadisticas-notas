@@ -27,12 +27,6 @@ Pequeño programa en Python que permite:
 
 Mateo Ramos
 Estudiante de Ingeniería en Sistemas de Información - UTN
-- Obtener nota mínima
-
-## Tecnologías
-
-- Python
-- Git
 - Linux
 
 ## Autor
