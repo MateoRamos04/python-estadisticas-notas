@@ -6,7 +6,9 @@ Pequeño programa en Python que permite:
 - Calcular cantidad de aprobados
 - Calcular cantidad de desaprobados
 - Calcular promedio
-- Obtener nota máxima# Python - Estadísticas de Notas
+- Obtener nota mínima
+- Obtener nota máxima
+
 
 ## Tecnologías
 
