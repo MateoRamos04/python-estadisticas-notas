@@ -58,6 +58,13 @@ def cargar():
     return v
 
 
+def cargar_archivo(v):
+    f = open("números.txt", "w")
+    for nota in v:
+        f.write(str(nota) + "\n")
+    f.close()
+
+
 def principal():
     print('Ejercicio 1 — Estadísticas de números\n'
           '=======================================\n'
@@ -71,11 +78,8 @@ def principal():
     print('Promedio:', promedio(v))
     print('Nota Maxima:', nota_maxima(v))
     print('Nota Minima:', nota_minima(v))
+    cargar_archivo(v)
 
 
 if __name__ == '__main__':
     principal()
-
-x='hola'
-x.capitalize
-print(x)
